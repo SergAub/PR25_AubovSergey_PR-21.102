@@ -10,67 +10,67 @@
 
     <ImageView
         android:id="@+id/cacodemon"
-        android:layout_width="214dp"
-        android:layout_height="230dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="199dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/cacodemon" />
 
     <ImageView
-        android:id="@+id/archvile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/cacodemon"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/archvile" />
-
-    <ImageView
-        android:id="@+id/pinky"
-        android:layout_width="129dp"
-        android:layout_height="186dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cacodemon"
-        app:srcCompat="@drawable/pinky" />
-
-    <ImageView
         android:id="@+id/baronofhell"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_width="126dp"
+        android:layout_height="264dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.67"
+        app:layout_constraintHorizontal_bias="0.938"
         app:layout_constraintStart_toEndOf="@+id/pinky"
         app:layout_constraintTop_toBottomOf="@+id/archvile"
         app:srcCompat="@drawable/baronofhell" />
 
     <ImageView
+        android:id="@+id/archvile"
+        android:layout_width="99dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintStart_toEndOf="@+id/cacodemon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/archvile" />
+
+    <ImageView
         android:id="@+id/mancubus"
-        android:layout_width="228dp"
-        android:layout_height="230dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="213dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toEndOf="@+id/revenant"
         app:layout_constraintTop_toBottomOf="@+id/baronofhell"
         app:srcCompat="@drawable/mancubus" />
 
     <ImageView
         android:id="@+id/revenant"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="103dp"
+        android:layout_height="283dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pinky"
         app:srcCompat="@drawable/revenant" />
+
+    <ImageView
+        android:id="@+id/pinky"
+        android:layout_width="112dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cacodemon"
+        app:srcCompat="@drawable/pinky" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
